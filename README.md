@@ -1,1 +1,13 @@
-# Online-Shopper
+# Online-Shopper-Metrics
+
+"Will They Buy Something?" is a meticulously crafted Jupyter Notebook project that navigates the intricacies of predicting consumer purchasing behavior on a renowned retail website. Leveraging a rich dataset detailing user interactions, this project embarks on a comprehensive exploration to decipher the underlying patterns that indicate whether a visitor is likely to make a purchase.
+
+The notebook is structured into four pivotal sections, each contributing uniquely towards the construction and refinement of a sophisticated predictive model. The journey begins with "Visualising Insights from Data," where an in-depth exploratory data analysis (EDA) is conducted. This section utilizes a suite of visualization libraries, including Matplotlib, Plotly, and Seaborn, to illuminate the dataset's nuances. Through this visual exploration, key insights into consumer behaviors and preferences are uncovered, laying a solid foundation for subsequent modeling efforts.
+
+Transitioning to the "Pre_Processing" phase, the notebook addresses crucial data preparation steps. It meticulously handles missing values, transforms categorical variables via one-hot encoding, introduces novel features through engineered transformations, and applies feature scaling. These preprocessing steps ensure the dataset is primed for predictive modeling, optimizing the input for machine learning algorithms.
+
+The "Modeling" section marks the core of the project, where a Stochastic Gradient Descent (SGD) Classifier is developed and iteratively tuned for optimal performance. Starting with a baseline model, the project delves into model tuning, leveraging techniques such as class weight balancing, feature selection, and Principal Component Analysis (PCA) for enhancement. This iterative process is aimed at striking a balance between accuracy, precision, recall, and F1 score, resulting in a nuanced model capable of effectively predicting purchase likelihood.
+
+Finally, the "Random Test" section subjects the refined model to a real-world test, evaluating its performance on a randomly selected data subset. This crucial step not only validates the model's practical utility but also underscores the importance of continuous testing and refinement.
+
+Designed for both novices and experienced data scientists, this notebook is an open invitation to engage with the code, explore the intricacies of consumer behavior analysis, and contribute to the ongoing evolution of predictive modeling techniques. Hosted on GitHub, the project encourages collaboration, offering a platform for shared learning and growth within the data science community.
